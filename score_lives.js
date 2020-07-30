@@ -1,5 +1,5 @@
 import { setPaddleX, paddleWidth } from './paddle.js'
-import { canvas } from './canvas.js'
+import { canvas, ctx } from './canvas.js'
 import { setX, setY, setDx, setDy } from './ball.js'
 
 export let score=0
